@@ -3,11 +3,7 @@ class Cat
   def initialize(meow)
     @meow = meow
   end 
-  attr.writer :meow
   def meow
     puts "meow!"
   end 
-  
-  
-  
 end 
